@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+    <title>Weather O'Clock</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search city" />
+        <button>
+          <svg>
+            <use href="icons.svg#icon-search"></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="weather">
+        <h2 class="city"></h2>
+        <h6 class="date"></h6>
+        <h1 class="temp"></h1>
+        <div class="flex">
+          <div class="description"></div>
+          <img src="" alt="" class="icon" />
+        </div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+        <div class="loading">
+          Loading
+          <svg>
+            <use href="icons.svg#icon-loader"></use>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
